@@ -6,10 +6,12 @@ body {
 .about {
   position: fixed;
   width: 50%;
+  background: black;
 }
 
 .projects {
   position: relative;
   width: 50%;
   right: 0;
+  background: silver;
 }

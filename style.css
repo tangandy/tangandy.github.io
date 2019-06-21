@@ -1,18 +1,99 @@
 body {
-  background: #e2e1e0;
-  text-align: center;
-  margin: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #353535;
+}
+
+.wrapper {
+  height: 100%;
 }
 
 .about {
   position: fixed;
+  height: 100%;
   width: 50%;
-  background: black;
+  background-color: gray;
 }
 
-.projects {
-  position: relative;
+.work {
+  position: absolute;
+  height: 100%;
   width: 50%;
+  background-color: white;
   right: 0;
-  background: silver;
+  margin: auto;
+}
+
+.featured-container {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.featured {
+  width: 100%;
+  height: 100%;
+  box-shadow: 3px 3px 7px #676767;
+  position: relative;
+  background-color: white;
+}
+
+.project-container {
+  padding: 30px;
+  width: 100%;
+  height: 50%;
+}
+
+.left-project {
+  width: 48%;
+  height: 100%;
+  box-shadow: 3px 3px 7px #676767;
+  float: left;
+  background-color: blue;
+}
+
+.right-project {
+  width: 48%;
+  height: 100%;
+  box-shadow: 3px 3px 7px #676767;
+  float: right;
+  right: 0;
+  background-color: yellow;
+}
+
+.hobby-container {
+  padding: 30px;
+  width: 100%;
+  height: 25%;
+}
+
+.left-hobby-container {
+  width: 49%;
+  height: 100%;
+  float: left;
+}
+
+.right-hobby-container {
+  width: 49%;
+  height: 100%;
+  float: right;
+}
+
+.left-hobby {
+  width: 48%;
+  height: 100%;
+  box-shadow: 3px 3px 7px #676767;
+  float: left;
+  background-color: orange;
+}
+
+.right-hobby {
+  width: 48%;
+  height: 100%;
+  box-shadow: 3px 3px 7px #676767;
+  float: right;
+  background-color: black;
 }

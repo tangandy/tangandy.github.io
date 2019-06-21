@@ -1,12 +1,14 @@
 #about {
   position: fixed;
   background-color: #000000;
+  height: 100%
   width: 50%;
 }
 
 #projects {
   position: relative;
   background-color: #C0C0C0;
+  height: 100%
   width: 50%
   right: 0;
 }

@@ -1,9 +1,14 @@
-#about {
+body {
+  background: #e2e1e0;
+  text-align: center;
+}
+
+.about {
   position: fixed;
   width: 50%;
 }
 
-#projects {
+.projects {
   position: relative;
   width: 50%;
   right: 0;

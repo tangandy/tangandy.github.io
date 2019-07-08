@@ -1,13 +1,7 @@
 p {
   display:flex;
   justify-content: center;
-}
-
-header {
-  height: 200px;
-  position: relative;
-  text-align: center;
-  line-height: 150px;
+  margin: auto;
 }
 
 a {
@@ -17,6 +11,14 @@ a {
 
 a:hover {
   color: gray;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  background-color: black;
+  display: flex;
 }
 
 /* Containers */
@@ -44,7 +46,7 @@ a:hover {
   position: relative;
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .medium-container {
@@ -52,7 +54,7 @@ a:hover {
   position: relative;
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .large-container {
@@ -60,7 +62,7 @@ a:hover {
   position: relative;
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .left-container {
@@ -73,18 +75,41 @@ a:hover {
 
 .right-container {
   width: 60%;
+  background-color: silver;
 }
 
 .top-container {
-  height: 35%;
+  height: 150px;
 }
 
 .vert-seperator {
-  height: 5%;
+  height: 40px;
 }
 
 .bottom-container {
-  height: 59%;
+  height: 310px;
+}
+
+.picture-container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.gray-container {
+  background-color: LightSlateGray;
+  height: 100%;
+  width: 100%;
+}
+
+.blue-container{
+  background-color: RoyalBlue;
+  height: 100%;
+  width: 100%;
 }
 
 /* Content */
+
+.left-container p {
+  color: white;
+}

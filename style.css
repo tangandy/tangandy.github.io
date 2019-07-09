@@ -17,8 +17,16 @@ img {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
-  background-color: black;
   display: flex;
+}
+
+h2 img {
+  display: inline-block;
+  max-width: 28px;
+  max-height: 28px;
+  float: right;
+  align-content: center;
+  filter: brightness(0) invert(1);
 }
 
 /* Containers */
@@ -75,7 +83,10 @@ img {
 
 .right-container {
   width: 60%;
-  background-color: silver;
+  background-color: #fafcff;
+  -webkit-box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
 }
 
 .top-container {
@@ -93,23 +104,136 @@ img {
 .picture-container {
   height: 100%;
   width: 100%;
-  background-color: black;
+  border-style: solid;
 }
 
 .gray-container {
   background-color: LightSlateGray;
   height: 100%;
   width: 100%;
+  -webkit-box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
 }
 
 .blue-container{
   background-color: RoyalBlue;
   height: 100%;
   width: 100%;
+  -webkit-box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.75);
+}
+
+.logo-container {
+  width: 90%;
+  height: 100%;
+  display: flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
 }
 
 /* Content */
 
 .left-container p {
   color: white;
+}
+
+.gray-container h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: Helvetica;
+  color: white;
+  padding: 20px 20px 0px 20px;
+  font-size: 40px;
+}
+
+.gray-container h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: Calibri;
+  color: white;
+  padding: 20px 0px 5px 0px;
+  border-bottom-style: solid;
+  font-weight: normal;
+  margin: 0px 20px 0px 20px;
+}
+
+.gray-container p {
+  justify-content: left;
+  margin: 0px 20px 0px 20px;
+  font-family: Calibri;
+}
+
+.gray-container h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: Calibri;
+  color: white;
+  padding: 20px 0px 5px 0px;
+  font-weight: normal;
+  margin: 0px 20px 0px 20px;
+}
+
+.blue-container h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: Calibri;
+  color: white;
+  padding: 20px 20px 5px 0px;
+  border-bottom-style: solid;
+  font-weight: normal;
+  margin: 0px 20px 0px 20px;
+}
+
+.blue-container p {
+  justify-content: left;
+  margin: 5px 20px 0px 20px;
+  padding-top: 5px;
+  font-family: Calibri;
+}
+
+.blue-container a {
+  display: contents;
+  color: white;
+  text-decoration: none;
+}
+
+.blue-container a:hover {
+  color: #f2c649;
+}
+
+.blue-container b {
+  display: contents;
+}
+
+.blue-container img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  filter: brightness(0) invert(1);
+}
+
+.blue-container img:hover {
+  filter: brightness(0);
+}
+
+.project-container {
+  width: 90%;
+  height: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.project {
+  height: 95px;
+  width: 100%;
+  border-style: thin;
+}
+
+.picture-container img {
+  float: left;
+  border-right-style: solid;
 }
